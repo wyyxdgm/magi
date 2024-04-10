@@ -1,0 +1,37 @@
+{
+  "name": "magi",
+  "version": "0.0.1",
+  "description": "基于nodejs和LLM接口的目标拆分执行系统",
+  "main": "src/start.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyyxdgm/magi.git"
+  },
+  "author": "Damo<wyyxdgm@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyyxdgm/magi/issues"
+  },
+  "homepage": "https://github.com/wyyxdgm/magi",
+  "keywords": [
+    "LLM",
+    "cli",
+    "agi",
+    "Target disassembly"
+  ],
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "ollama": "^0.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
